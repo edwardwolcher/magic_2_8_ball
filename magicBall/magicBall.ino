@@ -48,7 +48,7 @@ void checkShake()
     shakeChanges++;
     tiltStatus = currentStatus;
   }
-  if (shakeChanges > shake_amount)
+  if (shakeChanges >= shake_amount)
   {
     handleShake();
   }
