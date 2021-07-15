@@ -18,6 +18,7 @@ To speed up development a small python script "build_text.py" converts these str
 
 ## Media
 
-![Video of Magit Ball](media/MagicBallDemo.mp4)
+<iframe src="https://player.vimeo.com/video/575452060" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
 ![Magic Ball Front](media/frontface.jpg)
 ![Magic Ball Back](media/backface.jpg)
