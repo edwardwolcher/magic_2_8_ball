@@ -16,7 +16,7 @@ This project was created for DXARTS 470 at the University of Washington, Summer 
 The raw text used for nouns and verbs are kept in "nouns.txt" and "verbs.txt" in the root of the directory.
 To speed up development a small python script "build_text.py" converts these strings into the C++ header file used in the MagicBall.ino code. The arduino code is in the "magicBall" directory. There is also a slightly tweaked code in the "liveDemo" directory that will cause the ball to generate fortunes automatically in a loop.
 
-## Images
+## Media
 
 <video width="854" height="480" controls>
 <source src="media/MagicBallDemo.mp4" type="video/mp4">
