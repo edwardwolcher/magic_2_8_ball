@@ -1,5 +1,7 @@
 # Magic 2^8 Ball
 
+> [**Video Documentation**](https://vimeo.com/575452060)
+
 This code runs the **Magic 2^8 Ball**, an arduino-powered art object designed to serve as an enigmatic fortune teller and creative prompt generator. Inspired by the classic ["Magic 8 Ball" children's toy](https://en.wikipedia.org/wiki/Magic_8-Ball), it repurposes the orginal's kitsch aesthetic with a generative-art twist.
 
 Shaking the art activates a tilt-ball sensor in the device which generates a new fortune. Fortunes are composed of randomly selected noun and verb phrases from two lists of 128 strings. These are meant to provide thought-provoking and creative prompts to the viewer to aid in decision making or art. The strings are displayed on a 16x2 LCD display on the exterior of the device which resembles the murky blue window of original Magic 8 Balls. The combination of the two 128-long lists is 256 total strings (the 2^8 of the title) and a total of 16384 possible combinations. 
@@ -10,15 +12,14 @@ The effect is intended to surprise the viewer with the oddly poignent poetic lan
 
 A text-only demo showing the generative text is available at [https://edwardwolcher.github.io/magic_2_8_ball/demo/](https://edwardwolcher.github.io/magic_2_8_ball/demo/)
 
+
 This project was created for DXARTS 470 at the University of Washington, Summer 2021
 
 ## Code explanation
 The raw text used for nouns and verbs are kept in "nouns.txt" and "verbs.txt" in the root of the directory.
 To speed up development a small python script "build_text.py" converts these strings into the C++ header file used in the MagicBall.ino code. The arduino code is in the "magicBall" directory. There is also a slightly tweaked code in the "liveDemo" directory that will cause the ball to generate fortunes automatically in a loop.
 
-## Media
-
-<iframe src="https://player.vimeo.com/video/575452060" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+## Images
 
 ![Magic Ball Front](media/frontface.jpg)
 ![Magic Ball Back](media/backface.jpg)
