@@ -18,5 +18,11 @@ To speed up development a small python script "build_text.py" converts these str
 
 ## Images
 
-![Front face of 8ball](/images/frontface.jpg)
-![Back face of 8ball](/images/backface.jpg)
+<video width="854" height="480" controls>
+<source src="media/MagicBallDemo.mp4" type="video/mp4">
+</video>
+
+<div style="display:flex">
+<img src="media/frontface.jpg">
+<img src="media/backface.jpg">
+</div>
