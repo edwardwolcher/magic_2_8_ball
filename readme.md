@@ -23,3 +23,4 @@ To speed up development a small python script "build_text.py" converts these str
 
 ![Magic Ball Front](media/frontface.jpg)
 ![Magic Ball Back](media/backface.jpg)
+![TinkerCad Layout](media/tinkercad_layout.png)
