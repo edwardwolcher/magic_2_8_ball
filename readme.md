@@ -18,11 +18,6 @@ To speed up development a small python script "build_text.py" converts these str
 
 ## Media
 
-<video width="1280" height="720" controls>
-<source src="media/MagicBallDemo.mp4" type="video/mp4">
-</video>
-
-<div style="display:flex">
-<img src="media/frontface.jpg">
-<img src="media/backface.jpg">
-</div>
+![Video of Magit Ball](media/MagicBallDemo.mp4)
+![Magic Ball Front](media/frontface.jpg)
+![Magic Ball Back](media/backface.jpg)
