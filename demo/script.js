@@ -4,6 +4,10 @@ function setup() {
   createCanvas(windowWidth, windowHeight)
   background(240)
   shakeBall()
+  push()
+  textSize(24)
+  text("press any key to shake ball", 20, 40)
+  pop()
 }
 
 function drawBall() {
