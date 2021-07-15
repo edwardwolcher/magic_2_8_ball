@@ -86,7 +86,7 @@ void playTune()
   // the number of notes to use in the random tune
   int notes = int(random(8, 15));
   // The probability that any note is a rest
-  int restChance = int(random(2, 5));
+  int restChance = int(random(3, 6));
   // The probability that any note is transposed up one or two octaves
   int octaveChance = int(random(3, 7));
 
