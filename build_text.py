@@ -4,7 +4,7 @@
 # a change is made to the text files.
 
 nouns = open(r"nouns.txt", "r")
-text = open("magicBall.ino/Text.h", "w+")
+text = open("magicBall/Text.h", "w+")
 nounsPointer = "const char *const noun_table[] PROGMEM = {"
 for idx, noun in enumerate(nouns, 0):
     formattedNoun = 'const char n{idx}[] PROGMEM = "{noun}";\n'.format(
